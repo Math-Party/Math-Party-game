@@ -21,9 +21,9 @@ Este projeto foi construído como atividade de extensão da disciplina **Matemá
 
 Para guiar a jogabilidade, as casas do tabuleiro foram divididas por cores e funções específicas:
 
-### 📝 Casas de Desafio (Respostas no Centro da Tela)
-* **🟢 Verde-Água Claro (Nível Fácil):** Cronômetro de 1 minuto (60s). Acerto: `+10 pts` | Erro/Tempo esgotado: `-5 pts`.
-* **🔵 Verde-Água Médio (Nível Intermediário):** Cronômetro de 2 minutos (120s). Acerto: `+20 pts` | Erro/Tempo esgotado: `-10 pts`.
+### 📝 Casas de Perguntas (Respostas no Centro da Tela)
+* **🟢 Casas Brancas (Nível Fácil):** Cronômetro de 1 minuto (60s). Acerto: `+10 pts` | Erro/Tempo esgotado: `-5 pts`.
+* **🔵 Casas cinzas (Nível Intermediário):** Cronômetro de 2 minutos (120s). Acerto: `+20 pts` | Erro/Tempo esgotado: `-10 pts`.
 * **💣 Casa da Bomba (Nível Desafio/Difícil):** Ativa a *Janela de Decisão*. O jogador vê apenas o tema e escolhe:
   * *Aceitar Desafio:* Resolve sozinho (`+40 pts` se acertar / `-20 pts` se errar).
   * *Passar para Adversário:* Escolhe um oponente. Se o rival acertar, ganha `+30 pts` e você perde `-15 pts`; se o rival errar, você ganha `+30 pts` e ele perde `-15 pts`.
