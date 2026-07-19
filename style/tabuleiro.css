@@ -715,7 +715,7 @@ body {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
 }
 
-/* ---- Tela de Resultado (pop-up igual ao das perguntas, com fundo escurecido) ---- */
+/* ---- Tela de Resultado ---- */
 .resultado-overlay {
     position: fixed;
     inset: 0;
@@ -846,7 +846,8 @@ body {
     border: 2px solid #1c1c1c;
     font-weight: 700;
     font-size: 0.95rem;
-    white-space: nowrap;
+    white-space: normal; 
+    word-break: break-word;
 }
 
 .resultado-opcao.correta {
